@@ -11,8 +11,8 @@ RadSplit is research software. It is not a medical device. Lower covariate imbal
 Python 3.10 or newer is required.
 
 ```bash
-git clone https://github.com/Lab-DIG/RadSplit.git
-cd RadSplit
+git clone https://github.com/Lab-DIG/RadSplit-package.git
+cd RadSplit-package
 python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 python -m pip install -e '.[manifest]'
@@ -80,8 +80,9 @@ Software: Apache License 2.0 (see `LICENSE`). Dataset licenses and pretrained-we
 Until the manuscript is published, cite the repository and the exact commit you used:
 
 ```text
-Panjwani D, Pham N, Pudhota A, Powell K, Murad D, Bodduluri S. RadSplit: an open-source tool for
-patient-level splits and acquisition domain hold-outs for radiology AI. https://github.com/Lab-DIG/RadSplit
+Panjwani D, Pham HT, Pudhota A, Aguilera SM, Kanagala A, Powell K, Murad D, Bodduluri S. RadSplit: an
+open-source tool for patient-level splits and acquisition domain hold-outs for radiology AI.
+https://github.com/Lab-DIG/RadSplit-package
 ```
 
 The manuscript used public, deidentified datasets. Users remain responsible for institutional review requirements and for the conditions of each dataset.
