@@ -21,3 +21,4 @@ build/
 *.sqlite
 *.parquet
 .env
+*.docx

@@ -8,7 +8,7 @@ RadSplit is research software. It is not a medical device. Lower covariate imbal
 
 ## Installation
 
-Python 3.10 or newer is required.
+Python 3.11 or newer is required.
 
 ```bash
 git clone https://github.com/Lab-DIG/RadSplit-package.git
